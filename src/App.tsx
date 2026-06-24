@@ -21,6 +21,12 @@ import {
 } from './data';
 // @ts-ignore
 import popularLogo from './assets/images/popular_logo_1782294649041.jpg';
+// @ts-ignore
+import heroVilla from './assets/images/hero_residential_villa_1782291559403.jpg';
+// @ts-ignore
+import commercialBuilding from './assets/images/commercial_building_1782291583892.jpg';
+// @ts-ignore
+import interiorDesign from './assets/images/interior_design_1782291625981.jpg';
 
 // Map icon string names to actual Lucide component classes safely
 const IconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
@@ -272,7 +278,7 @@ export default function App() {
         {/* Background Subtle Rendering overlay */}
         <div className="absolute inset-0 opacity-20 pointer-events-none mix-blend-overlay">
           <img 
-            src="/src/assets/images/hero_residential_villa_1782291559403.jpg" 
+            src={heroVilla} 
             alt="Popular Construction background" 
             className="w-full h-full object-cover filter saturate-50 blur-[2px]"
             referrerPolicy="no-referrer"
@@ -341,7 +347,7 @@ export default function App() {
               
               <div className="bg-white p-3 rounded-2xl shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500 border border-neutral-100 relative z-10">
                 <img 
-                  src="/src/assets/images/hero_residential_villa_1782291559403.jpg" 
+                  src={heroVilla} 
                   alt="Modern Residential Bungalow" 
                   className="w-full h-64 object-cover rounded-xl"
                   referrerPolicy="no-referrer"
@@ -377,7 +383,7 @@ export default function App() {
                 <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-[#5c0d18]/5 rounded-2xl -z-10"></div>
                 
                 <img 
-                  src="/src/assets/images/commercial_building_1782291583892.jpg" 
+                  src={commercialBuilding} 
                   alt="Modern commercial steel structure" 
                   className="w-full h-80 object-cover rounded-2xl shadow-lg border border-neutral-100"
                   referrerPolicy="no-referrer"
@@ -511,7 +517,7 @@ export default function App() {
             <div className="lg:col-span-5">
               <div className="bg-neutral-50 p-6 rounded-2xl border border-neutral-200">
                 <img 
-                  src="/src/assets/images/interior_design_1782291625981.jpg" 
+                  src={interiorDesign} 
                   alt="Luxury turnkey living room finish" 
                   className="w-full h-52 object-cover rounded-xl shadow-inner border border-neutral-200"
                   referrerPolicy="no-referrer"

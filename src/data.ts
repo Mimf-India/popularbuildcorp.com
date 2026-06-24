@@ -1,3 +1,10 @@
+// @ts-ignore
+import interiorDesign from './assets/images/interior_design_1782291625981.jpg';
+// @ts-ignore
+import constructionSite from './assets/images/construction_site_1782291606547.jpg';
+// @ts-ignore
+import heroVilla from './assets/images/hero_residential_villa_1782291559403.jpg';
+
 export const COMPANY_INFO = {
   name: "Popular Build Corp",
   tagline: "Building Trust, Delivering Excellence",
@@ -206,19 +213,19 @@ export const RESIDENTIAL_SERVICES = [
 export const RESIDENTIAL_STAGES = [
   {
     title: "Planning & Design",
-    image: "/src/assets/images/interior_design_1782291625981.jpg"
+    image: interiorDesign
   },
   {
     title: "Construction",
-    image: "/src/assets/images/construction_site_1782291606547.jpg"
+    image: constructionSite
   },
   {
     title: "Interiors",
-    image: "/src/assets/images/interior_design_1782291625981.jpg"
+    image: interiorDesign
   },
   {
     title: "Finished Home",
-    image: "/src/assets/images/hero_residential_villa_1782291559403.jpg"
+    image: heroVilla
   }
 ];
 
